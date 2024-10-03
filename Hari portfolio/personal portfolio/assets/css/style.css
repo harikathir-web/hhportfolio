@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/IMG_20220302_184534.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .4s;
+}
+.btn {
+    background-color: cyan;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 7px 19px;
+    z-index: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.linked {
+    color: cyan;
+    font-size: 20px;
+    border: cyan solid;
+    display: inline-block;
+    
+}
+
+.linked:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+.whatsapp {
+    color: cyan;
+    font-size: 20px;
+    border: cyan solid;
+    display: inline-block;
+    margin-left: 5px;
+
+}
+.whatsapp:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+.git {
+    color: cyan;
+    font-size: 20px;
+    border: cyan solid;
+    display: inline-block;
+    margin-left: 5px;
+}
+.git:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+.face{
+    color: cyan;
+    font-size: 20px;
+    border: cyan solid;
+    display: inline-block;
+    margin-left: 5px;
+}
+.face:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img {
+    height: 500px;
+    width: 750pxpx;
+    border-radius: 25px;
+}
+
+.about img:hover {
+    scale: 1.1;
+    transition-duration: 1s,1s;
+   opacity: 4;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 25px;
+
+}
+
+
+.contact-me {
+    width: 100%;
+    height: auto;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    text-align: center;
+    border: border-box;
+  
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.login {
+   
+   
+    color: white;
+   
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+form {
+    color: white;
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+
+.contact-items {
+    color: white;
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cont-item {
+    color: white;
+    margin-top: 15px;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-items i {
+    color: aqua;
+}
+
+/* skill */
+
+.skill {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background: #191919;
+    text-align: center;
+
+}
+.onee {
+    margin-left: -40%;
+    
+}
+.oneee {
+    margin-left: -33%;
+}
+
+.oneen {
+    margin-left: -45%;
+}
+.onn {
+    margin-left: -45%;
+}
+.skill {
+   box-shadow: 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar {
+    background: #ffffff;
+    display: block;
+    width: 50%;
+    margin-left: 300px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+
+}
+.html {
+    width:90%;
+    animation: html 3s;
+}
+
+.css {
+    width:80%;
+    animation: css 3s;
+}
+
+.javascript {
+    width:35%;
+    animation: javascript 3s;
+}
+
+.python {
+    width:90%;
+    animation: python 3s;
+}
+
+.bootstrap {
+    width:50%;
+    animation: bootstrap 3s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.too {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.tto {
+    color: white;
+    font-family:cursive;
+    margin-bottom: 55px;
+}
+.hk {
+    font-size: 35px;
+    margin-top: 55px;
+}
+.kh {
+    color: aquamarine;
+}
+.education {
+   
+   
+    display: inline-block;
+}
+
+.pra i {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0px;
+}
